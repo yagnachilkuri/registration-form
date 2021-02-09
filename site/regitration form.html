@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	.center{
+		margin-left:auto;
+		margin-right:auto;
+	}
+	table,td{
+		border:1.5px solid black;
+		border-collapse:collapse;
+	}
+	td{
+			padding:10px;
+		}
+		#t02 tr:nth-child(even)
+		{
+			background-color:#FFCBA4;
+		}
+		#t02 tr:nth-child(odd)
+		{
+			background-color:#FF7F50;
+		}
+		#t01 tr:nth-child(even)
+		{
+             background-color:#98FF98;
+		}
+		#t01 tr:nth-child(odd)
+		{
+            background-color:#98FF98;
+		}
+		#t02 tr{
+			padding-left:30px;
+		}
+</style>
+</head>
+
+<body>
+	<body style="background-color:#98AFC7">
+	<h1 style="text-align:center;">Registration form</h1>
+	<table style="width:100%;" id="t01">
+		<tr>
+			<td>
+	<label for="fname">First Name:</label>
+	<input type="text" id="fname" name="fname">&nbsp;</td>
+	<td>
+	<label for="lname">Last name:</label>
+	<input type="text" id="lname" name="lname"><br><br></td>
+</tr>
+<tr>
+	<td>
+	<label for="section">section:</label>
+	<input type="text" id="section" name="section">&nbsp;</td>
+	<td>
+	<label for="roll">Roll No:</label>
+	<input type="text" id="roll" name="roll">&nbsp;</td>
+</tr>
+
+<tr>
+	<td>
+		<label for="branch">branch</label>
+		<select id="branch" name="branch">
+			<option value="mech">Mechannical engineering</option>
+		<option value="cse">computer science engineering</option>
+		<option value="ece">electronics and communication engineering</option>
+		<option value="eee">electrical and electronics engineering</option>
+		<option value="c">chemical engineering</option>
+		<option value="biotech">biotechnology engineering</option>
+		<option value="civil">civil engineering</option>
+		<option value="mettal">mettalurgical department</option></select></td>
+	<td>
+	<label for="smeseter">Semester:</label>
+	<select id="semester" name="semester">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+	</select></td></tr>
+	<br>
+</table>
+	<table style="width:50%" id="t02" class="center">;
+	<tr>
+		<td>
+	<label for="oops">Object oriented programming</label>
+	<input type="checkbox" id="oops" name="oops"></td>
+	<td>
+	<label for="itc">Information theory and coding</label>
+	<input type="checkbox" id="itc" name="itc"><br></td></tr>
+	<tr>
+		<td>
+	<label for="dn">data networks</label>
+	<input type="checkbox" id="dn" name="dn"></td>
+	<td>
+	<label for="ertos">Embedded real time operating systems</label>
+	<input type="checkbox" id="ertos" name="ertos"><br></td></tr>
+	<tr>
+		<td>
+	<label for="web">Web technologies</label>
+	<input type="checkbox" id="web" name="web"></td>
+	<td>
+	<label for="lp">LPVLSI</label>
+	<input type="checkbox" id="lp" name="lp"><br></td></tr>
+	<tr>
+		<td>
+	<label for="dsp">Digital signal processing</label>
+	<input type="checkbox" id="dsp" name="dsp"></td>
+	<td>
+	<label for="cs">communication systems lab</label>
+	<select id="cs" name="cs">
+		<option value="1">1</option>
+		<option value="2">2</option>
+	<input type="checkbox" id="oops" name="oops"></select></td></tr>
+	<br>
+	<tr>
+		<td>
+	<label for="dnl">Data networks lab</label>
+	<input type="checkbox" id="dnl" name="dnl">
+	<select id="dnl" name="dnl">
+		<option value="1">1</option>
+		<option value="2">2</option></select></td>
+		<td>
+			<label for="epic">Epics</label>
+	<input type="checkbox" id="epic" name="epic"></td></tr>
+	</table>
+	<label for="sub"></label>
+	<input type="submit" id="sub" name="sub">
+	<label for="res"></label>
+	<input type="reset" id="res" name="res">
+
+
+</body>
+</html>
